@@ -141,7 +141,7 @@ const Menu = () => {
 
   return (
     <>
-      <h1 className="text-6xl text-red-700 font-bold italic mb-5 text-center">Menu</h1>
+      <h1 className="text-6xl text-red-700 font-bold italic max-md:mt-2 mb-5 text-center">Menu</h1>
       <div className="flex text-white justify-center">
         <div>
           <table className="max-md:text-xs">
