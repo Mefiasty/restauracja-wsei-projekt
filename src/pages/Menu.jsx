@@ -162,6 +162,7 @@ const Menu = () => {
               <tr className="p-2 border-b border-b-red-600 border-dashed"><td className="w-96">{pasta.name}</td><td>{pasta.portion}</td><td>{pasta.price.toFixed(2)} zł</td></tr>
             ))}
           </table>
+          <button type="button" className="border-">GO UP</button>
         </div>
       </div>
     </>
