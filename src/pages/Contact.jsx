@@ -30,7 +30,7 @@ const Contact = () => {
           ))}
         </div>
         <div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.3409712388943!2d21.02922304240699!3d52.23719012158728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc59d9e8ed0f%3A0x859c4b3f0909639c!2sDobra%208%2C%2000-388%20Warszawa!5e0!3m2!1spl!2spl!4v1687637925013!5m2!1spl!2spl" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="rounded-full p-10 md:p-6"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.3409712388943!2d21.02922304240699!3d52.23719012158728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc59d9e8ed0f%3A0x859c4b3f0909639c!2sDobra%208%2C%2000-388%20Warszawa!5e0!3m2!1spl!2spl!4v1687637925013!5m2!1spl!2spl" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="rounded-full p-10 md:p-6 w-full"></iframe>
         </div>
       </div>
     </>

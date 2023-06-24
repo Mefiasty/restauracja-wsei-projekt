@@ -143,26 +143,26 @@ const Menu = () => {
     <>
       <h1 className="text-6xl text-red-700 font-bold italic max-md:mt-2 mb-5 text-center">Menu</h1>
       <div className="flex text-white justify-center">
-        <div>
+        <div className="m-4">
           <table className="max-md:text-xs">
-            <tr className="border-2 w-48"><td className="w-96 p-2">Pizza</td><td className="border-2 w-48 p-2">Mała 28cm</td><td className="border-2 w-48 ">Średnia 32cm</td><td className="border-2 w-48">Duża 45cm</td></tr>
+            <tr className="border-2 w-48"><td className="w-96 p-2">Pizza</td><td className="border-2 w-48 p-2">Mała 28cm</td><td className="border-2 w-48 p-2">Średnia 32cm</td><td className="border-2 w-48 p-2">Duża 45cm</td></tr>
             {pizzas.map((pizza) => (
-              <tr className="p-2 border-b border-b-red-600 border-dashed"><td className="w-96">{pizza.name}</td><td>{pizza.small.toFixed(2)} zł</td><td>{pizza.medium.toFixed(2)} zł</td><td>{pizza.large.toFixed(2)} zł</td></tr>
+              <tr className="p-2 border-b border-b-red-600 border-dashed"><td className="w-96 p-2">{pizza.name}</td><td classname="p-2">{pizza.small.toFixed(2)} zł</td><td classname="p-2">{pizza.medium.toFixed(2)} zł</td><td classname="p-2">{pizza.large.toFixed(2)} zł</td></tr>
             ))}
           </table>
           <table className="mt-6 max-md:text-xs">
             <tr className="border-2 w-48"><td className="w-96 p-2">Burgery</td><td className="border-2 w-48 p-2">Porcja</td><td className="border-2 w-96 p-2">Cena</td></tr>
             {burger.map((burger) => (
-              <tr className="p-2 border-b border-b-red-600 border-dashed"><td className="w-96">{burger.name}</td><td>{burger.portion}</td><td>{burger.price.toFixed(2)} zł</td></tr>
+              <tr className="p-2 border-b border-b-red-600 border-dashed"><td className="w-96 p-2">{burger.name}</td><td classname="p-2">{burger.portion}</td><td classname="p-2">{burger.price.toFixed(2)} zł</td></tr>
             ))}
           </table>
           <table className="mt-6 max-md:text-xs">
             <tr className="border-2 w-48"><td className="w-96 p-2">Makarony</td><td className="border-2 w-48 p-2">Porcja</td><td className="border-2 w-96 p-2">Cena</td></tr>
             {pasta.map((pasta) => (
-              <tr className="p-2 border-b border-b-red-600 border-dashed"><td className="w-96">{pasta.name}</td><td>{pasta.portion}</td><td>{pasta.price.toFixed(2)} zł</td></tr>
+              <tr className="p-2 border-b border-b-red-600 border-dashed"><td className="w-96 p-2">{pasta.name}</td><td>{pasta.portion}</td><td>{pasta.price.toFixed(2)} zł</td></tr>
             ))}
           </table>
-          <button type="button" className="border-">GO UP</button>
+          <a href="#" className="bg-red-700  block mt-4 py-2 px-6 ">Wróć Na Górę</a>
         </div>
       </div>
     </>
