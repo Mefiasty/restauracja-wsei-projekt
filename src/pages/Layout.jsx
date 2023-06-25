@@ -33,3 +33,5 @@ const Layout = () => {
 };
 
 export default Layout;
+
+//css framework: tailwindcss
