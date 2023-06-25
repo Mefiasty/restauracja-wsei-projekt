@@ -12,9 +12,9 @@ const Layout = () => {
           </div>
           <div className="grid grid-rows-4 mb-5  md:mb-5 md:h-16 md:grid-cols-4 rounded-3xl md:rounded-full  text-center bg-lime-600">
 
-            <NavLink to="/" className="text-white text-center p-4 text-lg md:text-xl rounded-full  hover:bg-lime-700 hover:rounded-full md:hover:h-16 cursor-pointer">Home</NavLink>
-            <NavLink to="/szukasz_pracy" className="text-white text-center p-4 text-lg md:text-xl rounded-full  hover:bg-lime-700 hover:rounded-full md:hover:h-16 cursor-pointer">Job Offer</NavLink>
-            <NavLink to="/contact" className="text-white text-center p-4 text-lg md:text-xl rounded-full hover:bg-lime-700 hover:rounded-full md:hover:h-16 cursor-pointer">Contact</NavLink>
+            <NavLink to="/" className="text-white text-center p-4 text-lg md:text-xl rounded-full  hover:bg-lime-700 hover:rounded-full md:hover:h-16 cursor-pointer">Strona Główna</NavLink>
+            <NavLink to="/szukasz_pracy" className="text-white text-center p-4 text-lg md:text-xl rounded-full  hover:bg-lime-700 hover:rounded-full md:hover:h-16 cursor-pointer">Aplikuj o Prace</NavLink>
+            <NavLink to="/contact" className="text-white text-center p-4 text-lg md:text-xl rounded-full hover:bg-lime-700 hover:rounded-full md:hover:h-16 cursor-pointer">Kontakt</NavLink>
             <NavLink to="/menu" className="text-white text-center p-4 text-lg md:text-xl rounded-full  hover:bg-lime-700 hover:rounded-full md:hover:h-16 cursor-pointer">Menu</NavLink>
 
           </div>
